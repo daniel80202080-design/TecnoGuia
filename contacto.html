@@ -1,159 +1,250 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
 
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>Contacto | TecnoGuía</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Ponte en contacto con TecnoGuía para consultas, sugerencias, comentarios o preguntas relacionadas con nuestros contenidos tecnológicos.">
+<title>Contacto | TecnoGuía</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta name="description"
+    content="Ponte en contacto con TecnoGuía para consultas, sugerencias o comentarios.">
+
+<link rel="stylesheet" href="style.css">
+
 
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
 
-    <header>
+<!-- MENÚ LATERAL -->
 
-        <div class="header-container">
+<button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Abrir menú"
+    aria-controls="sideMenu"
+    aria-expanded="false">
+    ☰
+</button>
 
-            <div class="logo">
-                <a href="index.html">TecnoGuía</a>
-            </div>
 
-            <nav>
+<div
+    class="menu-overlay"
+    id="menuOverlay">
+</div>
 
-                <a href="index.html">Inicio</a>
 
-                <a href="celulares.html">Celulares</a>
+<aside
+    class="side-menu"
+    id="sideMenu"
+    aria-label="Menú principal">
 
-                <a href="computadoras.html">Computadoras</a>
+    <h2>TecnoGuía</h2>
 
-                <a href="internet.html">Internet</a>
+    <a href="index.html">
+        Inicio
+    </a>
 
-            </nav>
+    <a href="celulares.html">
+        📱 Celulares
+    </a>
+
+    <a href="computadoras.html">
+        💻 Computadoras
+    </a>
+
+    <a href="internet.html">
+        🌐 Internet
+    </a>
+
+    <hr>
+
+    <a href="sobre-nosotros.html">
+        Sobre nosotros
+    </a>
+
+    <a href="contacto.html">
+        Contacto
+    </a>
+
+    <a href="privacidad.html">
+        Política de privacidad
+    </a>
+
+    <a href="terminos.html">
+        Términos y condiciones
+    </a>
+
+</aside>
+
+
+<!-- ENCABEZADO -->
+
+<header>
+
+    <div class="header-container">
+
+        <div class="logo">
+
+            <a href="index.html">
+                TecnoGuía
+            </a>
 
         </div>
 
-    </header>
+    </div>
+
+</header>
 
 
-    <!-- CONTENIDO -->
+<!-- CONTENIDO -->
 
-    <main class="container">
+<main class="container">
 
-        <article class="card">
+    <article class="card">
 
-            <h1>
-                Contacto
-            </h1>
+        <h1>
+            Contacto
+        </h1>
 
-            <p>
-                Si tienes alguna pregunta, sugerencia, comentario o deseas
-                informarnos sobre algún problema relacionado con TecnoGuía,
-                puedes ponerte en contacto con nosotros.
-            </p>
-
-
-            <h2>
-                ¿Tienes una sugerencia?
-            </h2>
-
-            <p>
-                Nos interesa conocer qué temas tecnológicos te gustaría
-                encontrar en TecnoGuía. Puedes enviarnos sugerencias sobre
-                nuevos tutoriales, guías o problemas tecnológicos que
-                quieras que tratemos.
-            </p>
-
-
-            <h2>
-                ¿Encontraste un problema?
-            </h2>
-
-            <p>
-                Si encuentras un enlace que no funciona, un error en algún
-                artículo o información que consideras que debería revisarse,
-                puedes comunicárnoslo por correo electrónico.
-            </p>
-
-
-            <h2>
-                Correo electrónico
-            </h2>
-
-            <p>
-                Puedes escribirnos a:
-            </p>
-
-            <p>
-                <a href="mailto:tecnoguiasoluciones@gmail.com">
-                    <strong>tecnoguiasoluciones@gmail.com</strong>
-                </a>
-            </p>
-
-            <p>
-                Intentaremos responder los mensajes cuando nos sea posible.
-            </p>
-
-
-            <h2>
-                Información importante
-            </h2>
-
-            <p>
-                TecnoGuía ofrece información y guías de carácter general.
-                Algunas soluciones pueden variar dependiendo del dispositivo,
-                fabricante, sistema operativo, versión del software o
-                proveedor del servicio.
-            </p>
-
-            <p>
-                Antes de realizar cambios importantes en un dispositivo,
-                recomendamos realizar copias de seguridad de la información
-                que consideres importante.
-            </p>
-
-
-            <br>
-
-            <a href="index.html">
-                ← Volver a TecnoGuía
-            </a>
-
-        </article>
-
-    </main>
-
-
-    <!-- PIE DE PÁGINA -->
-
-    <footer>
 
         <p>
-            © 2026 TecnoGuía - Todos los derechos reservados.
+            Si tienes alguna pregunta, sugerencia o comentario sobre
+            TecnoGuía, puedes ponerte en contacto con nosotros.
         </p>
+
+
+        <h2>
+            ¿Tienes una sugerencia?
+        </h2>
 
         <p>
-            <a href="sobre-nosotros.html">Sobre nosotros</a>
-            |
-            <a href="contacto.html">Contacto</a>
-            |
-            <a href="privacidad.html">Política de privacidad</a>
-            |
-            <a href="terminos.html">Términos y condiciones</a>
+            Nos interesa conocer qué temas tecnológicos te gustaría
+            encontrar en TecnoGuía.
         </p>
 
-    </footer>
+
+        <h2>
+            Correo electrónico
+        </h2>
+
+        <p>
+            Puedes escribirnos a:
+        </p>
+
+
+        <p>
+            <strong>
+                tecnoguiasoluciones@gmail.com
+            </strong>
+        </p>
+
+
+        <p>
+            Responderemos a los mensajes cuando nos sea posible.
+        </p>
+
+
+        <br>
+
+
+        <a href="index.html">
+            ← Volver a TecnoGuía
+        </a>
+
+    </article>
+
+</main>
+
+
+<!-- PIE DE PÁGINA -->
+
+<footer>
+
+    <p>
+        © 2026 TecnoGuía - Todos los derechos reservados.
+    </p>
+
+    <p>
+
+        <a href="sobre-nosotros.html">
+            Sobre nosotros
+        </a>
+
+        |
+
+        <a href="contacto.html">
+            Contacto
+        </a>
+
+        |
+
+        <a href="privacidad.html">
+            Privacidad
+        </a>
+
+        |
+
+        <a href="terminos.html">
+            Términos y condiciones
+        </a>
+
+    </p>
+
+</footer>
+
+
+<!-- FUNCIONAMIENTO DEL MENÚ -->
+
+<script>
+
+    const menuButton = document.getElementById("menuButton");
+    const sideMenu = document.getElementById("sideMenu");
+    const menuOverlay = document.getElementById("menuOverlay");
+
+
+    function toggleMenu() {
+
+        const isOpen = sideMenu.classList.toggle("open");
+
+        menuOverlay.classList.toggle("show", isOpen);
+
+        menuButton.setAttribute("aria-expanded", isOpen);
+
+    }
+
+
+    menuButton.addEventListener("click", toggleMenu);
+
+
+    menuOverlay.addEventListener("click", toggleMenu);
+
+
+    sideMenu.querySelectorAll("a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            sideMenu.classList.remove("open");
+
+            menuOverlay.classList.remove("show");
+
+            menuButton.setAttribute("aria-expanded", "false");
+
+        });
+
+    });
+
+</script>
 
 
 </body>
 
 </html>
+
