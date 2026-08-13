@@ -1,54 +1,86 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
 
-    <meta charset="UTF-8">
+```
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Internet: guías y soluciones | TecnoGuía</title>
+<title>Internet: guías y soluciones | TecnoGuía</title>
 
-    <meta name="description"
-        content="Guías y soluciones para Internet y Wi-Fi. Aprende a mejorar tu conexión, solucionar desconexiones y resolver problemas comunes de red.">
+<meta name="description"
+    content="Guías y soluciones para Internet y Wi-Fi. Aprende a mejorar tu conexión, solucionar desconexiones y resolver problemas comunes de red.">
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+```
 
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
+```
+<!-- MENÚ LATERAL -->
 
-    <!-- MENÚ LATERAL -->
-
-<button class="menu-button" onclick="alert('El menú funciona')" aria-label="Abrir menú">
+<button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Abrir menú"
+    aria-controls="sideMenu"
+    aria-expanded="false">
     ☰
 </button>
 
-<div class="menu-overlay" id="menuOverlay" onclick="toggleMenu()"></div>
 
-<aside class="side-menu" id="sideMenu">
+<div
+    class="menu-overlay"
+    id="menuOverlay">
+</div>
+
+
+<aside
+    class="side-menu"
+    id="sideMenu"
+    aria-label="Menú principal">
 
     <h2>TecnoGuía</h2>
 
-    <a href="index.html">Inicio</a>
+    <a href="index.html">
+        Inicio
+    </a>
 
-    <a href="celulares.html">📱 Celulares</a>
+    <a href="celulares.html">
+        📱 Celulares
+    </a>
 
-    <a href="computadoras.html">💻 Computadoras</a>
+    <a href="computadoras.html">
+        💻 Computadoras
+    </a>
 
-    <a href="internet.html">🌐 Internet</a>
+    <a href="internet.html">
+        🌐 Internet
+    </a>
 
     <hr>
 
-    <a href="sobre-nosotros.html">Sobre nosotros</a>
+    <a href="sobre-nosotros.html">
+        Sobre nosotros
+    </a>
 
-    <a href="contacto.html">Contacto</a>
+    <a href="contacto.html">
+        Contacto
+    </a>
 
-    <a href="privacidad.html">Política de privacidad</a>
+    <a href="privacidad.html">
+        Política de privacidad
+    </a>
 
-    <a href="terminos.html">Términos y condiciones</a>
+    <a href="terminos.html">
+        Términos y condiciones
+    </a>
 
 </aside>
 
@@ -60,9 +92,11 @@
     <div class="header-container">
 
         <div class="logo">
+
             <a href="index.html">
                 TecnoGuía
             </a>
+
         </div>
 
     </div>
@@ -70,217 +104,253 @@
 </header>
 
 
-    <!-- CONTENIDO PRINCIPAL -->
+<!-- CONTENIDO PRINCIPAL -->
 
-    <main class="container">
-
-        <section class="card">
-
-            <h1>
-                Guías y soluciones para Internet y Wi-Fi
-            </h1>
-
-            <p>
-                En esta sección encontrarás guías prácticas para solucionar
-                problemas comunes de conexión a Internet, mejorar tu red
-                Wi-Fi y entender mejor algunos aspectos de tu conexión.
-            </p>
-
-            <p>
-                Las explicaciones están pensadas para ser sencillas y fáciles
-                de seguir, incluso si no tienes conocimientos técnicos
-                avanzados.
-            </p>
-
-        </section>
+<main class="container">
 
 
-        <section class="card">
+    <section class="card">
 
-            <h2>
-                Guías disponibles
-            </h2>
+        <h1>
+            Guías y soluciones para Internet y Wi-Fi
+        </h1>
+
+        <p>
+            En esta sección encontrarás guías prácticas para solucionar
+            problemas comunes de conexión a Internet, mejorar tu red
+            Wi-Fi y entender mejor algunos aspectos de tu conexión.
+        </p>
+
+        <p>
+            Las explicaciones están pensadas para ser sencillas y fáciles
+            de seguir, incluso si no tienes conocimientos técnicos
+            avanzados.
+        </p>
+
+    </section>
 
 
-            <article>
+    <section class="card">
 
-                <h3>
-                    <a href="mejorar-conexion-wifi.html">
-                        Cómo mejorar la conexión Wi-Fi
-                    </a>
-                </h3>
+        <h2>
+            Guías disponibles
+        </h2>
 
-                <p>
-                    Consejos prácticos para mejorar la señal Wi-Fi,
-                    revisar el router y solucionar algunos problemas
-                    habituales de conexión.
-                </p>
+
+        <article>
+
+            <h3>
 
                 <a href="mejorar-conexion-wifi.html">
-                    Leer guía →
+                    Cómo mejorar la conexión Wi-Fi
                 </a>
 
-            </article>
+            </h3>
+
+            <p>
+                Consejos prácticos para mejorar la señal Wi-Fi,
+                revisar el router y solucionar algunos problemas
+                habituales de conexión.
+            </p>
+
+            <a href="mejorar-conexion-wifi.html">
+                Leer guía →
+            </a>
+
+        </article>
 
 
-            <hr>
+        <hr>
 
 
-            <article>
+        <article>
 
-                <h3>
-                    <a href="wifi-se-desconecta.html">
-                        Qué hacer cuando el Wi-Fi se desconecta constantemente
-                    </a>
-                </h3>
-
-                <p>
-                    Aprende a identificar las posibles causas de las
-                    desconexiones y qué comprobaciones puedes realizar
-                    antes de contactar con tu proveedor de Internet.
-                </p>
+            <h3>
 
                 <a href="wifi-se-desconecta.html">
-                    Leer guía →
+                    Qué hacer cuando el Wi-Fi se desconecta constantemente
                 </a>
 
-            </article>
-
-
-            <hr>
-
-
-            <article>
-
-                <h3>
-                    Comprueba la ubicación de tu router
-                </h3>
-
-                <p>
-                    La ubicación del router puede influir en la distribución
-                    de la señal inalámbrica. Colocarlo en un lugar abierto
-                    y relativamente central puede ayudar a mejorar la
-                    cobertura.
-                </p>
-
-            </article>
-
-
-            <hr>
-
-
-            <article>
-
-                <h3>
-                    Revisa los dispositivos conectados a tu red
-                </h3>
-
-                <p>
-                    Comprueba qué dispositivos están conectados a tu red
-                    y revisa si alguno está utilizando una cantidad elevada
-                    de ancho de banda.
-                </p>
-
-            </article>
-
-
-            <hr>
-
-
-            <h2>
-                Consejos generales para tu conexión
-            </h2>
+            </h3>
 
             <p>
-                Cuando tengas problemas de Internet, intenta determinar
-                primero si el problema afecta a un solo dispositivo o a
-                todos los dispositivos conectados a la red.
+                Aprende a identificar las posibles causas de las
+                desconexiones y qué comprobaciones puedes realizar
+                antes de contactar con tu proveedor de Internet.
             </p>
+
+            <a href="wifi-se-desconecta.html">
+                Leer guía →
+            </a>
+
+        </article>
+
+
+        <hr>
+
+
+        <article>
+
+            <h3>
+                Comprueba la ubicación de tu router
+            </h3>
 
             <p>
-                También puedes reiniciar el router, comprobar los cables,
-                revisar la intensidad de la señal y comprobar si tu
-                proveedor ha informado sobre alguna interrupción del servicio.
+                La ubicación del router puede influir en la distribución
+                de la señal inalámbrica. Colocarlo en un lugar abierto
+                y relativamente central puede ayudar a mejorar la
+                cobertura.
             </p>
 
-        </section>
+        </article>
 
 
-        <section class="card">
+        <hr>
 
-            <h2>
-                Más contenido próximamente
-            </h2>
+
+        <article>
+
+            <h3>
+                Revisa los dispositivos conectados a tu red
+            </h3>
 
             <p>
-                TecnoGuía continuará incorporando nuevas guías sobre
-                conexiones Wi-Fi, routers, redes domésticas, velocidad
-                de Internet y solución de problemas.
+                Comprueba qué dispositivos están conectados a tu red
+                y revisa si alguno está utilizando una cantidad elevada
+                de ancho de banda.
             </p>
 
-        </section>
+        </article>
 
 
-        <br>
+        <hr>
 
-        <a href="index.html">
-            ← Volver a TecnoGuía
+
+        <h2>
+            Consejos generales para tu conexión
+        </h2>
+
+        <p>
+            Cuando tengas problemas de Internet, intenta determinar
+            primero si el problema afecta a un solo dispositivo o a
+            todos los dispositivos conectados a la red.
+        </p>
+
+        <p>
+            También puedes reiniciar el router, comprobar los cables,
+            revisar la intensidad de la señal y comprobar si tu
+            proveedor ha informado sobre alguna interrupción del servicio.
+        </p>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>
+            Más contenido próximamente
+        </h2>
+
+        <p>
+            TecnoGuía continuará incorporando nuevas guías sobre
+            conexiones Wi-Fi, routers, redes domésticas, velocidad
+            de Internet y solución de problemas.
+        </p>
+
+    </section>
+
+
+    <br>
+
+
+    <a href="index.html">
+        ← Volver a TecnoGuía
+    </a>
+
+</main>
+
+
+<!-- PIE DE PÁGINA -->
+
+<footer>
+
+    <p>
+        © 2026 TecnoGuía - Todos los derechos reservados.
+    </p>
+
+    <p>
+
+        <a href="sobre-nosotros.html">
+            Sobre nosotros
         </a>
 
-    </main>
+        |
+
+        <a href="contacto.html">
+            Contacto
+        </a>
+
+        |
+
+        <a href="privacidad.html">
+            Política de privacidad
+        </a>
+
+        |
+
+        <a href="terminos.html">
+            Términos y condiciones
+        </a>
+
+    </p>
+
+</footer>
 
 
-    <!-- PIE DE PÁGINA -->
-
-    <footer>
-
-        <p>
-            © 2026 TecnoGuía - Todos los derechos reservados.
-        </p>
-
-        <p>
-
-            <a href="sobre-nosotros.html">
-                Sobre nosotros
-            </a>
-
-            |
-
-            <a href="contacto.html">
-                Contacto
-            </a>
-
-            |
-
-            <a href="privacidad.html">
-                Política de privacidad
-            </a>
-
-            |
-
-            <a href="terminos.html">
-                Términos y condiciones
-            </a>
-
-        </p>
-
-    </footer>
-
+<!-- FUNCIONAMIENTO DEL MENÚ -->
 
 <script>
 
-function toggleMenu() {
+    const menuButton = document.getElementById("menuButton");
+    const sideMenu = document.getElementById("sideMenu");
+    const menuOverlay = document.getElementById("menuOverlay");
 
-    const menu = document.getElementById("sideMenu");
-    const overlay = document.getElementById("menuOverlay");
 
-    menu.classList.toggle("open");
-    overlay.classList.toggle("show");
+    function toggleMenu() {
 
-}
+        const isOpen = sideMenu.classList.toggle("open");
+
+        menuOverlay.classList.toggle("show", isOpen);
+
+        menuButton.setAttribute("aria-expanded", isOpen);
+
+    }
+
+
+    menuButton.addEventListener("click", toggleMenu);
+
+
+    menuOverlay.addEventListener("click", toggleMenu);
+
+
+    sideMenu.querySelectorAll("a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            sideMenu.classList.remove("open");
+
+            menuOverlay.classList.remove("show");
+
+            menuButton.setAttribute("aria-expanded", "false");
+
+        });
+
+    });
 
 </script>
+```
 
 </body>
 
 </html>
+
