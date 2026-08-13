@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+/* ENCABEZADO */
+
+header {
+    background: #0b5ed7;
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* PRESENTACIÓN */
+
+.hero {
+    background: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 19px;
+    color: #555;
+}
+
+/* CONTENIDO */
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    margin-bottom: 25px;
+}
+
+/* TARJETAS */
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0b5ed7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* CELULARES */
+
+@media (max-width: 768px) {
+
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .articles {
+        grid-template-columns: 1fr;
+    }
+}
