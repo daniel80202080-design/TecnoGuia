@@ -1,213 +1,252 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
 
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>Sobre nosotros | TecnoGuía</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Conoce TecnoGuía, un sitio dedicado a ofrecer guías, tutoriales y soluciones tecnológicas claras, prácticas y fáciles de entender.">
+<title>Sobre nosotros | TecnoGuía</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta name="description"
+    content="Conoce TecnoGuía y nuestro objetivo de ofrecer guías y soluciones tecnológicas fáciles de entender.">
+
+<link rel="stylesheet" href="style.css">
+
 
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
 
-    <header>
+<!-- MENÚ LATERAL -->
 
-        <div class="header-container">
+<button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Abrir menú"
+    aria-controls="sideMenu"
+    aria-expanded="false">
+    ☰
+</button>
 
-            <div class="logo">
-                <a href="index.html">TecnoGuía</a>
-            </div>
 
-            <nav>
+<div
+    class="menu-overlay"
+    id="menuOverlay">
+</div>
 
-                <a href="index.html">Inicio</a>
 
-                <a href="celulares.html">Celulares</a>
+<aside
+    class="side-menu"
+    id="sideMenu"
+    aria-label="Menú principal">
 
-                <a href="computadoras.html">Computadoras</a>
+    <h2>TecnoGuía</h2>
 
-                <a href="internet.html">Internet</a>
+    <a href="index.html">
+        Inicio
+    </a>
 
-            </nav>
+    <a href="celulares.html">
+        📱 Celulares
+    </a>
+
+    <a href="computadoras.html">
+        💻 Computadoras
+    </a>
+
+    <a href="internet.html">
+        🌐 Internet
+    </a>
+
+    <hr>
+
+    <a href="sobre-nosotros.html">
+        Sobre nosotros
+    </a>
+
+    <a href="contacto.html">
+        Contacto
+    </a>
+
+    <a href="privacidad.html">
+        Política de privacidad
+    </a>
+
+    <a href="terminos.html">
+        Términos y condiciones
+    </a>
+
+</aside>
+
+
+<!-- ENCABEZADO -->
+
+<header>
+
+    <div class="header-container">
+
+        <div class="logo">
+
+            <a href="index.html">
+                TecnoGuía
+            </a>
 
         </div>
 
-    </header>
+    </div>
+
+</header>
 
 
-    <!-- CONTENIDO -->
+<!-- CONTENIDO -->
 
-    <main class="container">
+<main class="container">
 
-        <article class="card">
+    <article class="card">
 
-            <h1>
-                Sobre TecnoGuía
-            </h1>
-
-            <p>
-                Bienvenido a TecnoGuía, un sitio dedicado a compartir
-                información, guías, tutoriales y soluciones relacionadas
-                con la tecnología.
-            </p>
-
-            <p>
-                Nuestro propósito es ayudar a los usuarios a comprender y
-                solucionar problemas tecnológicos comunes mediante
-                explicaciones claras y prácticas.
-            </p>
-
-
-            <h2>
-                Nuestro objetivo
-            </h2>
-
-            <p>
-                Nuestro objetivo es explicar temas tecnológicos de una
-                manera sencilla y fácil de entender, especialmente para
-                personas que no tienen conocimientos técnicos avanzados.
-            </p>
-
-            <p>
-                Buscamos que cada guía proporcione información útil que el
-                lector pueda seguir paso a paso y aplicar según sus propias
-                necesidades.
-            </p>
-
-
-            <h2>
-                ¿Qué encontrarás en TecnoGuía?
-            </h2>
-
-            <p>
-                Publicamos contenidos relacionados con diferentes áreas de
-                la tecnología, incluyendo:
-            </p>
-
-            <ul>
-
-                <li>
-                    Guías para celulares y dispositivos Android.
-                </li>
-
-                <li>
-                    Consejos para computadoras y laptops.
-                </li>
-
-                <li>
-                    Soluciones para problemas comunes de Windows.
-                </li>
-
-                <li>
-                    Consejos para conexiones Wi-Fi e Internet.
-                </li>
-
-                <li>
-                    Tutoriales y recomendaciones relacionadas con el uso
-                    cotidiano de la tecnología.
-                </li>
-
-            </ul>
-
-
-            <h2>
-                Información clara y práctica
-            </h2>
-
-            <p>
-                Intentamos presentar nuestros contenidos de forma clara,
-                organizada y fácil de seguir. Las guías están pensadas para
-                usuarios que quieren encontrar una solución sin tener que
-                conocer conceptos técnicos avanzados.
-            </p>
-
-            <p>
-                Cuando una solución puede variar dependiendo del dispositivo,
-                fabricante o versión del sistema, procuramos indicarlo para
-                evitar que el lector siga instrucciones que no correspondan
-                a su equipo.
-            </p>
-
-
-            <h2>
-                Actualización de contenidos
-            </h2>
-
-            <p>
-                La tecnología cambia constantemente. Por ese motivo,
-                algunas guías pueden actualizarse para incorporar nueva
-                información, cambios en los sistemas operativos o nuevas
-                formas de solucionar determinados problemas.
-            </p>
-
-
-            <h2>
-                Nuestro compromiso
-            </h2>
-
-            <p>
-                Nuestro compromiso es seguir desarrollando contenido
-                tecnológico útil, comprensible y orientado a resolver
-                necesidades reales de los usuarios.
-            </p>
-
-            <p>
-                Si encuentras algún problema en una guía o deseas
-                comunicarte con nosotros, puedes utilizar nuestra página
-                de contacto.
-            </p>
-
-            <p>
-                <a href="contacto.html">
-                    Ir a Contacto
-                </a>
-            </p>
-
-
-            <br>
-
-            <a href="index.html">
-                ← Volver a TecnoGuía
-            </a>
-
-        </article>
-
-    </main>
-
-
-    <!-- PIE DE PÁGINA -->
-
-    <footer>
+        <h1>
+            Sobre TecnoGuía
+        </h1>
 
         <p>
-            © 2026 TecnoGuía - Todos los derechos reservados.
+            Bienvenido a TecnoGuía, un sitio creado para compartir
+            guías, tutoriales y soluciones relacionadas con la
+            tecnología.
         </p>
+
+
+        <h2>
+            Nuestro objetivo
+        </h2>
 
         <p>
-            <a href="sobre-nosotros.html">Sobre nosotros</a>
-            |
-            <a href="contacto.html">Contacto</a>
-            |
-            <a href="privacidad.html">Política de privacidad</a>
-            |
-            <a href="terminos.html">Términos y condiciones</a>
+            Nuestro objetivo es explicar temas tecnológicos de una
+            manera sencilla y fácil de entender, especialmente para
+            personas que no tienen conocimientos técnicos avanzados.
         </p>
 
-    </footer>
+
+        <h2>
+            ¿Qué encontrarás en TecnoGuía?
+        </h2>
+
+        <p>
+            Publicamos contenidos sobre computadoras, celulares,
+            Android, Windows, Internet, conexiones Wi-Fi y otros
+            temas relacionados con la tecnología.
+        </p>
+
+
+        <h2>
+            Información clara y práctica
+        </h2>
+
+        <p>
+            Intentamos que nuestras guías sean prácticas y fáciles
+            de seguir, utilizando explicaciones paso a paso para que
+            puedas resolver problemas tecnológicos por tu cuenta.
+        </p>
+
+
+        <br>
+
+
+        <a href="index.html">
+            ← Volver a TecnoGuía
+        </a>
+
+    </article>
+
+</main>
+
+
+<!-- PIE DE PÁGINA -->
+
+<footer>
+
+    <p>
+        © 2026 TecnoGuía - Todos los derechos reservados.
+    </p>
+
+    <p>
+
+        <a href="sobre-nosotros.html">
+            Sobre nosotros
+        </a>
+
+        |
+
+        <a href="contacto.html">
+            Contacto
+        </a>
+
+        |
+
+        <a href="privacidad.html">
+            Privacidad
+        </a>
+
+        |
+
+        <a href="terminos.html">
+            Términos y condiciones
+        </a>
+
+    </p>
+
+</footer>
+
+
+<!-- FUNCIONAMIENTO DEL MENÚ -->
+
+<script>
+
+    const menuButton = document.getElementById("menuButton");
+    const sideMenu = document.getElementById("sideMenu");
+    const menuOverlay = document.getElementById("menuOverlay");
+
+
+    function toggleMenu() {
+
+        const isOpen = sideMenu.classList.toggle("open");
+
+        menuOverlay.classList.toggle("show", isOpen);
+
+        menuButton.setAttribute("aria-expanded", isOpen);
+
+    }
+
+
+    menuButton.addEventListener("click", toggleMenu);
+
+
+    menuOverlay.addEventListener("click", toggleMenu);
+
+
+    sideMenu.querySelectorAll("a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            sideMenu.classList.remove("open");
+
+            menuOverlay.classList.remove("show");
+
+            menuButton.setAttribute("aria-expanded", "false");
+
+        });
+
+    });
+
+</script>
 
 
 </body>
 
 </html>
 
-</html>
