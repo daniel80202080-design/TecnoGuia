@@ -9,10 +9,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TecnoGuía - Soluciones tecnológicas</title>
+<title>TecnoGuía | Soluciones tecnológicas fáciles</title>
 
 <meta name="description"
-    content="Guías, tutoriales y soluciones sobre celulares, computadoras, Windows, Android, iPhone e Internet.">
+    content="TecnoGuía: guías, tutoriales y soluciones fáciles sobre celulares, computadoras e Internet.">
 
 <link rel="stylesheet" href="style.css">
 
@@ -22,49 +22,85 @@
 <body>
 
 
-<!-- ENCABEZADO -->
+<!-- =====================================================
+     MENÚ LATERAL
+     ===================================================== -->
 
-<!-- MENÚ LATERAL -->
-
-<button class="menu-button" onclick="toggleMenu()" aria-label="Abrir menú">
+<button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Abrir menú"
+    aria-controls="sideMenu"
+    aria-expanded="false">
     ☰
 </button>
 
-<div class="menu-overlay" id="menuOverlay" onclick="toggleMenu()"></div>
 
-<aside class="side-menu" id="sideMenu">
+<div
+    class="menu-overlay"
+    id="menuOverlay">
+</div>
+
+
+<aside
+    class="side-menu"
+    id="sideMenu"
+    aria-label="Menú principal">
 
     <h2>TecnoGuía</h2>
 
-    <a href="index.html">Inicio</a>
+    <a href="index.html">
+        Inicio
+    </a>
 
-    <a href="celulares.html">📱 Celulares</a>
+    <a href="celulares.html">
+        📱 Celulares
+    </a>
 
-    <a href="computadoras.html">💻 Computadoras</a>
+    <a href="computadoras.html">
+        💻 Computadoras
+    </a>
 
-    <a href="internet.html">🌐 Internet</a>
+    <a href="internet.html">
+        🌐 Internet
+    </a>
 
     <hr>
 
-    <a href="sobre-nosotros.html">Sobre nosotros</a>
+    <a href="sobre-nosotros.html">
+        Sobre nosotros
+    </a>
 
-    <a href="contacto.html">Contacto</a>
+    <a href="contacto.html">
+        Contacto
+    </a>
 
-    <a href="privacidad.html">Política de privacidad</a>
+    <a href="privacidad.html">
+        Política de privacidad
+    </a>
 
-    <a href="terminos.html">Términos y condiciones</a>
+    <a href="terminos.html">
+        Términos y condiciones
+    </a>
 
 </aside>
 
 
-<!-- ENCABEZADO -->
+<!-- =====================================================
+     ENCABEZADO
+     ===================================================== -->
 
 <header>
 
     <div class="header-container">
 
         <div class="logo">
-            <a href="index.html">TecnoGuía</a>
+
+            <a href="index.html">
+                TecnoGuía
+            </a>
+
         </div>
 
     </div>
@@ -72,34 +108,108 @@
 </header>
 
 
-<!-- PRESENTACIÓN -->
+<!-- =====================================================
+     PRESENTACIÓN PRINCIPAL
+     ===================================================== -->
 
 <section class="hero">
 
     <h1>
-        Soluciones tecnológicas fáciles
+        Tecnología explicada de forma sencilla
     </h1>
 
     <p>
-        Guías y tutoriales para resolver tus problemas tecnológicos.
+        Guías prácticas para solucionar problemas, mejorar tus
+        dispositivos y aprovechar mejor la tecnología.
     </p>
 
 </section>
 
 
-<!-- ARTÍCULOS -->
+<!-- =====================================================
+     CONTENIDO PRINCIPAL
+     ===================================================== -->
 
 <main class="container">
 
+
+    <!-- CATEGORÍAS -->
+
     <h2 class="section-title">
-        Últimos artículos
+        Explora nuestras categorías
     </h2>
 
 
-    <div class="articles">
+    <section class="articles">
 
 
-        <!-- ARTÍCULO 1 -->
+        <article class="card">
+
+            <h3>
+                📱 Celulares
+            </h3>
+
+            <p>
+                Consejos y soluciones para Android y otros dispositivos
+                móviles. Aprende a liberar espacio, mejorar el rendimiento
+                y resolver problemas comunes.
+            </p>
+
+            <a href="celulares.html">
+                Ver guías de celulares →
+            </a>
+
+        </article>
+
+
+        <article class="card">
+
+            <h3>
+                💻 Computadoras
+            </h3>
+
+            <p>
+                Guías para Windows, computadoras y laptops. Aprende a
+                solucionar problemas y mejorar el rendimiento de tu PC.
+            </p>
+
+            <a href="computadoras.html">
+                Ver guías de computadoras →
+            </a>
+
+        </article>
+
+
+        <article class="card">
+
+            <h3>
+                🌐 Internet
+            </h3>
+
+            <p>
+                Consejos para Wi-Fi, routers y conexiones a Internet.
+                Aprende a identificar y solucionar problemas de red.
+            </p>
+
+            <a href="internet.html">
+                Ver guías de Internet →
+            </a>
+
+        </article>
+
+
+    </section>
+
+
+    <!-- ARTÍCULOS DESTACADOS -->
+
+    <h2 class="section-title">
+        Guías destacadas
+    </h2>
+
+
+    <section class="articles">
+
 
         <article class="card">
 
@@ -108,17 +218,16 @@
             </h3>
 
             <p>
-                Aprende diferentes formas de mejorar el rendimiento de tu computadora.
+                Descubre algunos pasos sencillos para mejorar el
+                rendimiento de una computadora lenta.
             </p>
 
             <a href="acelerar-pc.html">
-                Leer artículo →
+                Leer guía →
             </a>
 
         </article>
 
-
-        <!-- ARTÍCULO 2 -->
 
         <article class="card">
 
@@ -127,17 +236,16 @@
             </h3>
 
             <p>
-                Descubre cómo recuperar espacio de almacenamiento en tu celular.
+                Aprende diferentes formas de recuperar espacio de
+                almacenamiento en tu celular Android.
             </p>
 
             <a href="liberar-espacio-android.html">
-                Leer artículo →
+                Leer guía →
             </a>
 
         </article>
 
-
-        <!-- ARTÍCULO 3 -->
 
         <article class="card">
 
@@ -146,22 +254,73 @@
             </h3>
 
             <p>
-                Consejos para solucionar problemas comunes de conexión a Internet.
+                Consejos prácticos para mejorar la señal Wi-Fi y
+                solucionar problemas habituales de conexión.
             </p>
 
             <a href="mejorar-conexion-wifi.html">
-                Leer artículo →
+                Leer guía →
             </a>
 
         </article>
 
 
-    </div>
+    </section>
+
+
+    <!-- SOBRE TECNOGUÍA -->
+
+    <section class="card">
+
+        <h2>
+            ¿Qué es TecnoGuía?
+        </h2>
+
+        <p>
+            TecnoGuía es un sitio creado para explicar tecnología de
+            una manera clara, sencilla y práctica.
+        </p>
+
+        <p>
+            Nuestro objetivo es ayudarte a resolver problemas
+            tecnológicos sin necesidad de tener conocimientos técnicos
+            avanzados.
+        </p>
+
+        <a href="sobre-nosotros.html">
+            Conoce más sobre TecnoGuía →
+        </a>
+
+    </section>
+
+
+    <!-- LLAMADA A LA ACCIÓN -->
+
+    <section class="card">
+
+        <h2>
+            ¿Tienes un problema tecnológico?
+        </h2>
+
+        <p>
+            Explora nuestras guías y encuentra soluciones prácticas
+            para tus dispositivos, tu computadora o tu conexión a
+            Internet.
+        </p>
+
+        <a class="button" href="celulares.html">
+            Explorar guías
+        </a>
+
+    </section>
+
 
 </main>
 
 
-<!-- PIE DE PÁGINA -->
+<!-- =====================================================
+     PIE DE PÁGINA
+     ===================================================== -->
 
 <footer>
 
@@ -170,33 +329,83 @@
     </p>
 
     <p>
-        <a href="sobre-nosotros.html">Sobre nosotros</a>
+
+        <a href="sobre-nosotros.html">
+            Sobre nosotros
+        </a>
+
         |
-        <a href="contacto.html">Contacto</a>
+
+        <a href="contacto.html">
+            Contacto
+        </a>
+
         |
-        <a href="privacidad.html">Política de privacidad</a>
+
+        <a href="privacidad.html">
+            Política de privacidad
+        </a>
+
         |
-        <a href="terminos.html">Términos y condiciones</a>
+
+        <a href="terminos.html">
+            Términos y condiciones
+        </a>
+
     </p>
 
 </footer>
 
 
+<!-- =====================================================
+     FUNCIONAMIENTO DEL MENÚ
+     ===================================================== -->
+
 <script>
 
-function toggleMenu() {
+    const menuButton = document.getElementById("menuButton");
+    const sideMenu = document.getElementById("sideMenu");
+    const menuOverlay = document.getElementById("menuOverlay");
 
-    const menu = document.getElementById("sideMenu");
-    const overlay = document.getElementById("menuOverlay");
 
-    menu.classList.toggle("open");
-    overlay.classList.toggle("show");
+    function toggleMenu() {
 
-}
+        const isOpen = sideMenu.classList.toggle("open");
+
+        menuOverlay.classList.toggle("show", isOpen);
+
+        menuButton.setAttribute("aria-expanded", isOpen);
+
+    }
+
+
+    menuButton.addEventListener("click", toggleMenu);
+
+
+    menuOverlay.addEventListener("click", toggleMenu);
+
+
+    sideMenu.querySelectorAll("a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            sideMenu.classList.remove("open");
+
+            menuOverlay.classList.remove("show");
+
+            menuButton.setAttribute("aria-expanded", "false");
+
+        });
+
+    });
 
 </script>
 
+
+</body>
+
 </html>
+
 
 
 
