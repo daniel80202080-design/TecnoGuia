@@ -1,68 +1,106 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
 
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>Computadoras: guías y soluciones | TecnoGuía</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Guías y soluciones para computadoras y laptops. Aprende a mejorar el rendimiento, liberar espacio, solucionar problemas y mantener tu equipo funcionando correctamente.">
+<title>Computadoras: guías y soluciones | TecnoGuía</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta name="description"
+    content="Guías y soluciones para computadoras y laptops. Aprende a mejorar el rendimiento, liberar espacio, solucionar problemas y mantener tu equipo funcionando correctamente.">
+
+<link rel="stylesheet" href="style.css">
+
 
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
 
-    <!-- MENÚ LATERAL -->
+<!-- =====================================================
+     MENÚ LATERAL
+     ===================================================== -->
 
-<button class="menu-button" onclick="toggleMenu()" aria-label="Abrir menú">
+<button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Abrir menú"
+    aria-controls="sideMenu"
+    aria-expanded="false">
     ☰
 </button>
 
-<div class="menu-overlay" id="menuOverlay" onclick="toggleMenu()"></div>
 
-<aside class="side-menu" id="sideMenu">
+<div
+    class="menu-overlay"
+    id="menuOverlay">
+</div>
+
+
+<aside
+    class="side-menu"
+    id="sideMenu"
+    aria-label="Menú principal">
 
     <h2>TecnoGuía</h2>
 
-    <a href="index.html">Inicio</a>
+    <a href="index.html">
+        Inicio
+    </a>
 
-    <a href="celulares.html">📱 Celulares</a>
+    <a href="celulares.html">
+        📱 Celulares
+    </a>
 
-    <a href="computadoras.html">💻 Computadoras</a>
+    <a href="computadoras.html">
+        💻 Computadoras
+    </a>
 
-    <a href="internet.html">🌐 Internet</a>
+    <a href="internet.html">
+        🌐 Internet
+    </a>
 
     <hr>
 
-    <a href="sobre-nosotros.html">Sobre nosotros</a>
+    <a href="sobre-nosotros.html">
+        Sobre nosotros
+    </a>
 
-    <a href="contacto.html">Contacto</a>
+    <a href="contacto.html">
+        Contacto
+    </a>
 
-    <a href="privacidad.html">Política de privacidad</a>
+    <a href="privacidad.html">
+        Política de privacidad
+    </a>
 
-    <a href="terminos.html">Términos y condiciones</a>
+    <a href="terminos.html">
+        Términos y condiciones
+    </a>
 
 </aside>
 
 
-<!-- ENCABEZADO -->
+<!-- =====================================================
+     ENCABEZADO
+     ===================================================== -->
 
 <header>
 
     <div class="header-container">
 
         <div class="logo">
+
             <a href="index.html">
                 TecnoGuía
             </a>
+
         </div>
 
     </div>
@@ -70,236 +108,284 @@
 </header>
 
 
-    <!-- CONTENIDO PRINCIPAL -->
+<!-- =====================================================
+     CONTENIDO PRINCIPAL
+     ===================================================== -->
 
-    <main class="container">
-
-        <section class="card">
-
-            <h1>
-                Guías y soluciones para computadoras
-            </h1>
-
-            <p>
-                En esta sección encontrarás guías y consejos prácticos
-                para mejorar el funcionamiento de tu computadora o laptop,
-                solucionar problemas comunes y mantener tu equipo en buenas
-                condiciones.
-            </p>
-
-            <p>
-                Las explicaciones están pensadas para que puedas seguirlas
-                paso a paso, incluso si no tienes conocimientos técnicos
-                avanzados.
-            </p>
-
-        </section>
+<main class="container">
 
 
-        <section class="card">
+    <section class="card">
 
-            <h2>
-                Guías disponibles
-            </h2>
+        <h1>
+            Guías y soluciones para computadoras
+        </h1>
+
+        <p>
+            En esta sección encontrarás guías y consejos prácticos
+            para mejorar el funcionamiento de tu computadora o laptop,
+            solucionar problemas comunes y mantener tu equipo en buenas
+            condiciones.
+        </p>
+
+        <p>
+            Las explicaciones están pensadas para que puedas seguirlas
+            paso a paso, incluso si no tienes conocimientos técnicos
+            avanzados.
+        </p>
+
+    </section>
 
 
-            <article>
+    <!-- GUÍAS DISPONIBLES -->
 
-                <h3>
-                    <a href="acelerar-pc.html">
-                        Cómo acelerar una computadora lenta
-                    </a>
-                </h3>
+    <section class="card">
 
-                <p>
-                    Aprende diferentes formas de comprobar qué puede estar
-                    causando lentitud y qué acciones puedes realizar para
-                    mejorar el rendimiento de tu computadora.
-                </p>
+        <h2>
+            Guías disponibles
+        </h2>
+
+
+        <article>
+
+            <h3>
 
                 <a href="acelerar-pc.html">
-                    Leer guía →
+                    Cómo acelerar una computadora lenta
                 </a>
 
-            </article>
+            </h3>
+
+            <p>
+                Aprende diferentes formas de comprobar qué puede estar
+                causando lentitud y qué acciones puedes realizar para
+                mejorar el rendimiento de tu computadora.
+            </p>
+
+            <a href="acelerar-pc.html">
+                Leer guía →
+            </a>
+
+        </article>
 
 
-            <hr>
+        <hr>
 
 
-            <article>
+        <article>
 
-                <h3>
-                    <a href="liberar-espacio-windows.html">
-                        Cómo liberar espacio en Windows
-                    </a>
-                </h3>
-
-                <p>
-                    Aprende cómo revisar el almacenamiento, eliminar archivos
-                    innecesarios, revisar programas instalados y recuperar
-                    espacio en tu computadora.
-                </p>
+            <h3>
 
                 <a href="liberar-espacio-windows.html">
-                    Leer guía →
+                    Cómo liberar espacio en Windows
                 </a>
 
-            </article>
-
-
-            <hr>
-
-
-            <article>
-
-                <h3>
-                    Revisa los programas que se ejecutan al iniciar Windows
-                </h3>
-
-                <p>
-                    Algunos programas pueden iniciarse automáticamente
-                    cuando enciendes la computadora. Revisar estos programas
-                    puede ayudarte a identificar aplicaciones que no necesitas
-                    ejecutar desde el inicio.
-                </p>
-
-            </article>
-
-
-            <hr>
-
-
-            <article>
-
-                <h3>
-                    Mantén espacio disponible en el almacenamiento
-                </h3>
-
-                <p>
-                    Un disco con poco espacio disponible puede dificultar
-                    algunas tareas. Revisar archivos temporales, descargas
-                    antiguas y programas que ya no utilizas puede ayudarte
-                    a recuperar espacio.
-                </p>
-
-            </article>
-
-
-            <hr>
-
-
-            <article>
-
-                <h3>
-                    Mantén tu sistema actualizado
-                </h3>
-
-                <p>
-                    Las actualizaciones del sistema operativo y de las
-                    aplicaciones pueden incluir correcciones de seguridad,
-                    mejoras de estabilidad y otras modificaciones importantes.
-                </p>
-
-            </article>
-
-
-            <hr>
-
-
-            <h2>
-                Consejos generales para tu computadora
-            </h2>
+            </h3>
 
             <p>
-                Antes de realizar cambios importantes en el sistema,
-                procura tener una copia de seguridad de tus archivos
-                importantes. También evita instalar programas provenientes
-                de sitios desconocidos.
+                Aprende cómo revisar el almacenamiento, eliminar archivos
+                innecesarios, revisar programas instalados y recuperar
+                espacio en tu computadora.
             </p>
+
+            <a href="liberar-espacio-windows.html">
+                Leer guía →
+            </a>
+
+        </article>
+
+
+        <hr>
+
+
+        <article>
+
+            <h3>
+                Revisa los programas que se ejecutan al iniciar Windows
+            </h3>
 
             <p>
-                Los pasos y opciones disponibles pueden variar dependiendo
-                de la versión de Windows, el fabricante y las características
-                de cada computadora.
+                Algunos programas pueden iniciarse automáticamente
+                cuando enciendes la computadora. Revisar estos programas
+                puede ayudarte a identificar aplicaciones que no necesitas
+                ejecutar desde el inicio.
             </p>
 
-        </section>
+        </article>
 
 
-        <section class="card">
+        <hr>
 
-            <h2>
-                Más contenido próximamente
-            </h2>
+
+        <article>
+
+            <h3>
+                Mantén espacio disponible en el almacenamiento
+            </h3>
 
             <p>
-                TecnoGuía continuará incorporando nuevas guías sobre
-                computadoras, Windows, almacenamiento, rendimiento,
-                mantenimiento y solución de problemas.
+                Un disco con poco espacio disponible puede dificultar
+                algunas tareas. Revisar archivos temporales, descargas
+                antiguas y programas que ya no utilizas puede ayudarte
+                a recuperar espacio.
             </p>
 
-        </section>
+        </article>
 
 
-        <br>
+        <hr>
 
-        <a href="index.html">
-            ← Volver a TecnoGuía
+
+        <article>
+
+            <h3>
+                Mantén tu sistema actualizado
+            </h3>
+
+            <p>
+                Las actualizaciones del sistema operativo y de las
+                aplicaciones pueden incluir correcciones de seguridad,
+                mejoras de estabilidad y otras modificaciones importantes.
+            </p>
+
+        </article>
+
+
+        <hr>
+
+
+        <h2>
+            Consejos generales para tu computadora
+        </h2>
+
+        <p>
+            Antes de realizar cambios importantes en el sistema,
+            procura tener una copia de seguridad de tus archivos
+            importantes. También evita instalar programas provenientes
+            de sitios desconocidos.
+        </p>
+
+        <p>
+            Los pasos y opciones disponibles pueden variar dependiendo
+            de la versión de Windows, el fabricante y las características
+            de cada computadora.
+        </p>
+
+    </section>
+
+
+    <!-- MÁS CONTENIDO -->
+
+    <section class="card">
+
+        <h2>
+            Más contenido próximamente
+        </h2>
+
+        <p>
+            TecnoGuía continuará incorporando nuevas guías sobre
+            computadoras, Windows, almacenamiento, rendimiento,
+            mantenimiento y solución de problemas.
+        </p>
+
+    </section>
+
+
+    <br>
+
+
+    <a href="index.html">
+        ← Volver a TecnoGuía
+    </a>
+
+</main>
+
+
+<!-- =====================================================
+     PIE DE PÁGINA
+     ===================================================== -->
+
+<footer>
+
+    <p>
+        © 2026 TecnoGuía - Todos los derechos reservados.
+    </p>
+
+    <p>
+
+        <a href="sobre-nosotros.html">
+            Sobre nosotros
         </a>
 
-    </main>
+        |
+
+        <a href="contacto.html">
+            Contacto
+        </a>
+
+        |
+
+        <a href="privacidad.html">
+            Política de privacidad
+        </a>
+
+        |
+
+        <a href="terminos.html">
+            Términos y condiciones
+        </a>
+
+    </p>
+
+</footer>
 
 
-    <!-- PIE DE PÁGINA -->
-
-    <footer>
-
-        <p>
-            © 2026 TecnoGuía - Todos los derechos reservados.
-        </p>
-
-        <p>
-
-            <a href="sobre-nosotros.html">
-                Sobre nosotros
-            </a>
-
-            |
-
-            <a href="contacto.html">
-                Contacto
-            </a>
-
-            |
-
-            <a href="privacidad.html">
-                Política de privacidad
-            </a>
-
-            |
-
-            <a href="terminos.html">
-                Términos y condiciones
-            </a>
-
-        </p>
-
-    </footer>
-
+<!-- =====================================================
+     FUNCIONAMIENTO DEL MENÚ
+     ===================================================== -->
 
 <script>
 
-function toggleMenu() {
+    const menuButton = document.getElementById("menuButton");
+    const sideMenu = document.getElementById("sideMenu");
+    const menuOverlay = document.getElementById("menuOverlay");
 
-    const menu = document.getElementById("sideMenu");
-    const overlay = document.getElementById("menuOverlay");
 
-    menu.classList.toggle("open");
-    overlay.classList.toggle("show");
+    function toggleMenu() {
 
-}
+        const isOpen = sideMenu.classList.toggle("open");
+
+        menuOverlay.classList.toggle("show", isOpen);
+
+        menuButton.setAttribute("aria-expanded", isOpen);
+
+    }
+
+
+    menuButton.addEventListener("click", toggleMenu);
+
+
+    menuOverlay.addEventListener("click", toggleMenu);
+
+
+    sideMenu.querySelectorAll("a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            sideMenu.classList.remove("open");
+
+            menuOverlay.classList.remove("show");
+
+            menuButton.setAttribute("aria-expanded", "false");
+
+        });
+
+    });
 
 </script>
 
+
+</body>
+
 </html>
+
